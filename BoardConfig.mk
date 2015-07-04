@@ -39,3 +39,16 @@ TARGET_KERNEL_CONFIG := zaracl_defconfig
 
 # inherit from the proprietary version
 include vendor/htc/zara/BoardConfigVendor.mk
+
+#TWRP
+DEVICE_RESOLUTION := 540x960
+TW_INCLUDE_DUMLOCK := true
+RECOVERY_SDCARD_ON_DATA := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_INTERNAL_STORAGE_PATH := "/data/media"
+TW_INTERNAL_STORAGE_MOUNT_POINT := "data"
+TW_EXTERNAL_STORAGE_PATH := "/external_sdcard"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
+TW_EXTERNAL_STORAGE_PATH := "/usb-otg"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "usb-otg"
+TW_NO_USB_STORAGE := true
