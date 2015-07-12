@@ -52,3 +52,6 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "external_sdcard"
 TW_EXTERNAL_STORAGE_PATH := "/usb-otg"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "usb-otg"
 TW_NO_USB_STORAGE := true
+
+# Prebuilt Chromium Flag
+USE_PREBUILT_CHROMIUM := true
